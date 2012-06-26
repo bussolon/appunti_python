@@ -22,5 +22,12 @@ Esempio di iniziazione di un dizionario::
 	dizionario.has_key('uno')
 	#[Out]# True
 
+Cancella un elemento dal dizionario::
 
+	del dizionario[2]
+
+Meglio::
+
+	if dizionario.has_key(2):
+		del dizionario[2]
 
