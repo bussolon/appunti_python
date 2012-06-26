@@ -1,5 +1,35 @@
+<<<<<<< HEAD
 # python
 *.py[cod]
 
 *.*~
 doc/build/**.*
+=======
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
+>>>>>>> 3589d2c4d6eba64006522bf104f24177f68ba806
